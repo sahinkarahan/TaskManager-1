@@ -13,5 +13,6 @@ struct TaskManager_1App: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Task.self)
     }
 }
